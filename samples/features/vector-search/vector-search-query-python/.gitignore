@@ -1,0 +1,22 @@
+# Environment variables (may contain Azure credentials)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Sample output — keep the committed reference file (output/sample-output.txt);
+# ignore any other ephemeral run artifacts written to this folder.
+output/*
+!output/sample-output.txt
+
+# Logs
+*.log

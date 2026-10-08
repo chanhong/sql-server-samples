@@ -1,0 +1,18 @@
+# Environment variables (may contain Azure credentials)
+.env
+.env.local
+.env.*.local
+
+# Go build artifacts
+/query
+/embed
+*.exe
+*.test
+
+# Sample output — keep the committed reference file (output/sample-output.txt);
+# ignore any other ephemeral run artifacts written to this folder.
+output/*
+!output/sample-output.txt
+
+# Logs
+*.log
